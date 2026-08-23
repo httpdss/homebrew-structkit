@@ -20,8 +20,8 @@ class Structkit < Formula
   end
 
   resource "openai" do
-    url "https://files.pythonhosted.org/packages/3f/3d/20c87b39cc09ffb4dc8c9dd9ca1f3ec8e66fe2c27a5027555aa6c8eebcc1/openai-1.54.5.tar.gz"
-    sha256 "87cc8807e4d062bf995dd884378f1fa8c859aaf17d9af78df3a4cfd3de44657b"
+    url "https://files.pythonhosted.org/packages/86/29/d480df62c061ce065d33976b263806bad334597c178948e69907db256a77/openai-1.54.5.tar.gz"
+    sha256 "2aab4f9755a3e1e04d8a45ac1f4ce7b6948bab76646020c6386256d7e5cbb7e0"
   end
 
   resource "python-dotenv" do
@@ -35,8 +35,8 @@ class Structkit < Formula
   end
 
   resource "PyGithub" do
-    url "https://files.pythonhosted.org/packages/c9/18/89e4ef9b0e0e61c0d6d78264a4c23352b4a7ee37b508732dd99475cbc0d1/PyGithub-2.5.0.tar.gz"
-    sha256 "5d7b85ea116745165da3a6709110b988078047f43f53acc5042f5b6b40a8f865"
+    url "https://files.pythonhosted.org/packages/16/ce/aa91d30040d9552c274e7ea8bd10a977600d508d579a4bb262b95eccf961/pygithub-2.5.0.tar.gz"
+    sha256 "e1613ac508a9be710920d26eb18b1905ebd9926aa49398e88151c1b526aad3cf"
   end
 
   resource "shtab" do
@@ -50,13 +50,13 @@ class Structkit < Formula
   end
 
   resource "pydantic-ai-slim" do
-    url "https://files.pythonhosted.org/packages/32/1d/aab32d65ed3f63c71f36b0ea24fea2dbc11c7cb8b4c0fdf16ced0c5d56ed/pydantic_ai_slim-0.0.14.tar.gz"
-    sha256 "88f2aef5a98e2da25f8e66cc7c88e6a3b1b9bf13a8e47a5b7e8d5ea7be4e02bf"
+    url "https://files.pythonhosted.org/packages/df/fa/2ff0fbd714d0337b1db08ca725913294aaed5324a84c2caf7dfef75e894d/pydantic_ai_slim-0.0.14.tar.gz"
+    sha256 "f6c40470091566d8135af775508d0acd2e9c52181a1472e529f6e3bd0afa18a1"
   end
 
   resource "fastmcp" do
-    url "https://files.pythonhosted.org/packages/eb/73/2e5d2ede3b1fe5b3f78c8e30d5f485c0c9d9a2c0afd47d976c60c43a81f1/fastmcp-2.4.0.tar.gz"
-    sha256 "c0f47b6aefa4e9e3da80113dd4a2ca6e2bcfe0655abb04f6b4e5fdadb27cdefa"
+    url "https://files.pythonhosted.org/packages/50/11/2ccd6219eb65692a298e764fa84a15fd756e03c811c7ea217129d6ca545f/fastmcp-2.4.0.tar.gz"
+    sha256 "a08d812939d16c0d4490bdbdaf17ab136f1bdaa8ddcc14a37e33335727343c05"
   end
 
   resource "markupsafe" do
@@ -70,7 +70,7 @@ class Structkit < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/f7/9d/bcf4a449a438ed6f19790eee543a86a740c77508fbc5ddab210ab3ba3a9a/charset_normalizer-3.4.0.tar.gz"
+    url "https://files.pythonhosted.org/packages/f2/4f/e1808dc01273379acc506d18f1504eb2d299bd4131743b9fc54d7be4df1e/charset_normalizer-3.4.0.tar.gz"
     sha256 "223217c3d4f82c3ac5e29032b3f1c2eb0fb591b72161f86d93f5719079dae93e"
   end
 
@@ -90,7 +90,7 @@ class Structkit < Formula
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/fc/01/f3e5ac0e9b02fe0c25f338d4969081d3df9c4e294ae77e1f07c81bd20603/pydantic_core-2.27.1.tar.gz"
+    url "https://files.pythonhosted.org/packages/a6/9f/7de1f19b6aea45aeb441838782d68352e71bfa98ee6fa048d5041991b33e/pydantic_core-2.27.1.tar.gz"
     sha256 "62a763352879b84aa31058fc931884055fd75089cccbd9d58bb6afd01141b235"
   end
 
