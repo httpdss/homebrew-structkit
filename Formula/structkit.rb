@@ -3,10 +3,11 @@ class Structkit < Formula
 
   desc "YAML-first project scaffolding tool with AI/MCP integration"
   homepage "https://structkit.app"
-  url "https://files.pythonhosted.org/packages/source/s/structkit/structkit-3.2.1.tar.gz"
+  url "https://files.pythonhosted.org/packages/b5/4f/257ae3ff6e92d68e926eb56589de260b856c51e58f991dd28d6d4f5a39cb/structkit-3.2.1.tar.gz"
   sha256 "7dcdce6debf3522dff61814a6cc80e60450a9b33c1a24f7bfb88b7ce663cf22c"
   license "Apache-2.0"
 
+  depends_on "libsodium"
   depends_on "python@3.12"
 
   resource "PyYAML" do
