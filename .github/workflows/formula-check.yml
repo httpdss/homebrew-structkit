@@ -1,0 +1,37 @@
+name: Formula Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Formula/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'Formula/**'
+
+jobs:
+  check:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@1f8e202ffddf94def7f42f6fa3a482e821489f9c
+
+      - name: Audit formula
+        run: |
+          brew audit --strict --online structkit
+
+      - name: Style check
+        run: |
+          brew style structkit
+
+      - name: Check for trailing whitespace
+        run: |
+          if grep -r '[[:blank:]]$' Formula/; then
+            echo "Error: Trailing whitespace found"
+            exit 1
+          fi
