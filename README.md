@@ -1,6 +1,6 @@
 # homebrew-structkit
 
-Homebrew tap for [StructKit](https://structkit.app) - YAML-first project scaffolding tool with AI/MCP integration.
+Homebrew tap for [StructKit](https://github.com/httpdss/structkit). This is not the product.
 
 ## Installation
 
