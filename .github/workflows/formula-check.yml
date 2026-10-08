@@ -5,10 +5,12 @@ on:
     branches: [main]
     paths:
       - 'Formula/**'
+      - '.github/workflows/formula-check.yml'
   pull_request:
     branches: [main]
     paths:
       - 'Formula/**'
+      - '.github/workflows/formula-check.yml'
 
 jobs:
   check:
@@ -35,3 +37,11 @@ jobs:
             echo "Error: Trailing whitespace found"
             exit 1
           fi
+
+      - name: Install formula
+        run: |
+          brew install --build-from-source structkit
+
+      - name: Test formula
+        run: |
+          brew test structkit

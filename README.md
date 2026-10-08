@@ -35,7 +35,7 @@ When a new version of StructKit is released on PyPI, update the formula:
 1. **Download and calculate the SHA256 hash for the new version:**
 
    ```bash
-   VERSION=3.2.2  # Replace with the new version
+   VERSION=3.3.0  # Replace with the new version
    curl -sL "https://files.pythonhosted.org/packages/source/s/structkit/structkit-${VERSION}.tar.gz" \
      --output "/tmp/structkit-${VERSION}.tar.gz"
    sha256sum "/tmp/structkit-${VERSION}.tar.gz"
@@ -66,7 +66,7 @@ When a new version of StructKit is released on PyPI, update the formula:
 ### Checking for new dependencies:
 
 ```bash
-VERSION=3.2.2  # Replace with the new version
+VERSION=3.3.0  # Replace with the new version
 cd /tmp
 tar -xzf "structkit-${VERSION}.tar.gz"
 cat "structkit-${VERSION}/pyproject.toml" | grep -A 20 "dependencies ="
