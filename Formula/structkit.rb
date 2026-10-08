@@ -7,6 +7,7 @@ class Structkit < Formula
   sha256 "4b7272f036f3fa6835cb0d5fa6a0df43084a8c07d591f25de99397b0c7603cd2"
   license "MIT"
 
+  depends_on "rust" => :build
   depends_on "libsodium"
   depends_on "python@3.12"
 
@@ -170,6 +171,6 @@ class Structkit < Formula
   end
 
   test do
-    assert_match "structkit", shell_output("#{bin}/structkit --version")
+    assert_match "usage", shell_output("#{bin}/structkit --help")
   end
 end
