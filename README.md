@@ -89,4 +89,4 @@ end
 
 ## License
 
-This tap is maintained following Homebrew conventions. StructKit itself is licensed under MIT.
+This tap is maintained following Homebrew conventions. StructKit itself is licensed under Apache-2.0.

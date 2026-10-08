@@ -5,7 +5,7 @@ class Structkit < Formula
   homepage "https://structkit.app"
   url "https://files.pythonhosted.org/packages/96/1f/68245bee0ae39a27053b3044cfd7083c6867b3fc71bb62213b9b680ba35b/structkit-3.3.0.tar.gz"
   sha256 "4b7272f036f3fa6835cb0d5fa6a0df43084a8c07d591f25de99397b0c7603cd2"
-  license "MIT"
+  license "Apache-2.0"
 
   depends_on "rust" => :build
   depends_on "libsodium"
