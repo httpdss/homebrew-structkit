@@ -3,8 +3,8 @@ class Structkit < Formula
 
   desc "YAML-first project scaffolding tool with AI/MCP integration"
   homepage "https://structkit.app"
-  url "https://files.pythonhosted.org/packages/96/1f/68245bee0ae39a27053b3044cfd7083c6867b3fc71bb62213b9b680ba35b/structkit-3.3.0.tar.gz"
-  sha256 "4b7272f036f3fa6835cb0d5fa6a0df43084a8c07d591f25de99397b0c7603cd2"
+  url "https://files.pythonhosted.org/packages/cb/fa/5520a26bdc26ad18225171578013d8e563bffb185b06d0baa7fb05656aa1/structkit-3.3.1.tar.gz"
+  sha256 "c00470b5198b61b5136b5a2ed7043ad855b527adebff8d8644fd052498f3fb5e"
   license "Apache-2.0"
 
   depends_on "rust" => :build
@@ -49,6 +49,11 @@ class Structkit < Formula
   resource "colorlog" do
     url "https://files.pythonhosted.org/packages/db/38/2992ff192eaa7dd5a793f8b6570d6bbe887c4fbbf7e72702eb0a693a01c8/colorlog-6.8.2.tar.gz"
     sha256 "3e3e079a41feb5a1b64f978b5ea4f46040a94f11f0e8bbb8261e3dbbeca64d44"
+  end
+
+  resource "cachetools" do
+    url "https://files.pythonhosted.org/packages/5a/e5/43f9a3f926cc182a0ee95cfd53ec0b5ac0e2cdafa184af6fc50166fd03fd/cachetools-7.2.5.tar.gz"
+    sha256 "a2223b80de434291ddf4c105354e533bbaf4d29382f5d1bc3e4b9332cb31061e"
   end
 
   resource "pydantic-ai-slim" do
